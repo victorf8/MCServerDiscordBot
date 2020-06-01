@@ -149,7 +149,7 @@ bot.on('message', message => {//if bot sees messege run arrow function
 ////Embeds inits for each server
 embedList = [];
 
-const Default1152 = new Discord.MessageEmbed()
+const Default = new Discord.MessageEmbed()
     .setTitle('Default')
     .setThumbnail('https://www.minecraft.net/content/dam/minecraft/pmp/pmp-minecraft-howitworks-survive.png')
     .addField('MC Version:', '1.15.2')
@@ -157,7 +157,7 @@ const Default1152 = new Discord.MessageEmbed()
     .setDescription("Default is a vanilla world to use as example.")
     .setColor(0x228B22);
 
-embedList.push(Default1152);//push HEXXIT embed to array[0]
+embedList.push(Default);//push HEXXIT embed to array[0]
 
 
 ////embeds END
