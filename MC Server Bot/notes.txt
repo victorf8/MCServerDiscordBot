@@ -1,49 +1,10 @@
-for (i = 0; i < serverList.length + 1; i++) {
-                if (serverList[i] === args[1]) {
-                    message.channel.send('Server Found: Now starting, please wait.');
-                    bot.commands.get(args[1]).execute(message, args, serverConfigs);
-                    break;
-                } else if (i === serverList.length) { message.reply("Server was not found make sure capitalization is correct.\nUse !servers to double check.") }
-            }
 
-minecraftServerProcess1.stdout.on('data', code => {
-            console.log(`Output: ${code}`);
+All original intelectual property designed, coded, and owned by
+Victor Dominic Ferri
 
-            msg = `${code}`;
-            let str = `${code}`.split(' ');
-
-            if (str[3] === "Done") {
-                message.channel.send(name + ' Server started, try joining!');
-                message.client.channels.cache.find(channel => channel.name === console).send(`Console Output:\n${code}`);
-                x = true;
-            }
-            else if (x === true) {
-                message.client.channels.cache.find(channel => channel.name === console).send(`Console Output:\n${code}`);
-            }
-
-        });
-
-global.minecraftServerProcess1 = spawn( java, commands, { cwd: currentDir });
-
-minecraftServerProcess1.stdout.on('data', code => {
-
-minecraftServerProcess1.stderr.on('data', log);
-
-minecraftServerProcess1.on('exit', code => {
-
-for (i = 0; i < serverList.length + 1; i++) {
-                if (serverList[i] === args[1]) {
-                    bot.commands.get(args[1]).execute(message, args, serverConfigs);
-                    break;
-                } else if (i === serverList.length) { message.reply("Server was not found make sure capitalization is correct.\nUse !servers to double check.") }
-            }
-
-if (args[0] === 'stop') {
-            if (typeof minecraftServerProcess1 === "undefined") {
-                message.reply(args[1] + ' is not running.');
-            }
-            else {
-                minecraftServerProcess1.stdin.write('stop\n');
-                delete minecraftServerProcess1;
-            }
-        }//stop
+<!--RIGHTS
+	Node.js Open Source Template
+	Minecraft Server Discord Bot by Victor Dominic Ferri
+	hosted @ https://github.com/victorf8/MCServerDiscordBot
+	Released for free under the Creative Commons Attribution 3.0 license
+-->
