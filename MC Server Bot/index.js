@@ -152,7 +152,7 @@ embedList = [];
 const Default = new Discord.MessageEmbed()
     .setTitle('Default')
     .setThumbnail('https://www.minecraft.net/content/dam/minecraft/pmp/pmp-minecraft-howitworks-survive.png')
-    .addField('MC Version:', '1.15.2')
+    .addField('MC Version:', '1.16.4')
     .addField('TexturePack:', 'https://www.curseforge.com/minecraft/modpacks/hexxit-updated/files/2806407')
     .setDescription("Default is a vanilla world to use as example.")
     .setColor(0x228B22);
