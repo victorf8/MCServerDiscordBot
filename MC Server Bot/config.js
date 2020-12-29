@@ -1,11 +1,11 @@
-//Discord Bot Token  //Replace with personal bot token.
-module.exports.token = 'XsNv9Q.ZJ1T_HETUisHSjtO7CFLlRlgk2g';
+//Discord Bot Token  //Replace with personal bot token. This can be found under Bot in your application. Click to reveal it.
+module.exports.token = '';
 
 //Minecraft Server Ip  //replace with hosted MC Server IP
-module.exports.serverIP = 'VictorsMCServer.evils.in';
+module.exports.serverIP = '192.0.0.0';
 
 //Path to directory of active Minecraft Servers //Replace dir. with path to MC Servers (default is made in file) source file MINECRAFT_SERVERS
-module.exports.path = 'C:/Users/Victor/Desktop/Discord_Server/MINECRAFT_SERVERS';
+module.exports.path = 'C:/Users/[USERNAME]/Desktop/Discord_Server/MINECRAFT_SERVERS';
 
 //Single Server
 module.exports.singleServer = true;
