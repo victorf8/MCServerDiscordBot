@@ -11,7 +11,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "discord.js": "^12.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "minecraft-server-util": "^1.1.1",
     "twilio": "^3.43.1"
   }
